@@ -39,3 +39,14 @@ def compter_voyelles(texte):
 
 phrase = "Bonjour tout le monde"
 print("Nombre de voyelles :", compter_voyelles(phrase))
+
+''' Exemple 3: creation_de_produit '''
+def creation_de_produit(liste_produit):
+    produit = input("Entrez le nom du produit : ")
+    liste_produit.append(produit)
+    return liste_produit
+
+# Utilisation
+mes_produits = []
+mes_produits = creation_de_produit(mes_produits)
+print(mes_produits)
