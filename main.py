@@ -14,6 +14,7 @@ def tri_croissant():
             print(b)
 tri_croissant()
 
+# 2 fonction 
 ''' Exemple 2: conversion d'un nombre entier en binaire '''
 def chiffre_vers_binaire():
     n = int(input("Entrez un nombre entier : "))
